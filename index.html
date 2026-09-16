@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#7EC8F2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="News Thinking">
+  <title>News Thinking</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app" class="app" aria-live="polite"></div>
+  <nav class="tabbar" aria-label="주요 메뉴">
+    <button type="button" data-tab="today" class="tab active"><span class="tab-icon news-icon" aria-hidden="true"></span>오늘 뉴스</button>
+    <button type="button" data-tab="calendar" class="tab"><span class="tab-icon calendar-icon" aria-hidden="true"></span>달력</button>
+    <button type="button" data-tab="notes" class="tab"><span class="tab-icon note-icon" aria-hidden="true"></span>내 생각</button>
+  </nav>
+  <script src="./app.js" defer></script>
+</body>
+</html>
