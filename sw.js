@@ -1,4 +1,4 @@
-const CACHE='newsthinking-v5';
+const CACHE='newsthinking-v6';
 const SHELL=['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./fonts/memomentKkukKkuk.woff2','./fonts/Pretendard-Regular.woff2','./fonts/Pretendard-SemiBold.woff2','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png'];
 const valid=response=>response&&response.ok&&!response.headers.has('ngrok-error-code');
 
